@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.menucito{
+	background-color: lawngreen;
+}
+.container-fluid-cuerpo{
+	margin: 30px auto;
+	padding: 0 15%;
+}
+.carousel-item.active .carousel-caption.d-none.d-md-block h5 {
+	font-size: 48px;
+	text-shadow: 3px 3px 5px black;
+}
+
+
+@media (max-width:992px){
+	.row .col-lg-4 .card {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width:576px){
+	.container-fluid-cuerpo{
+		padding: 10px;
+	}
+}
