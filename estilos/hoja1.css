@@ -22,6 +22,22 @@
 	margin: 30px auto;
 	padding: 0 15%;
 }
+.container-fluid-pie{
+	margin-top: 30px;
+}
+footer{
+	padding: 0 15%;
+}
+.container.p-4 .text-light code {
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: 0px 2px 8px #000000;
+	font-size: 20px;
+}
+section a{
+	text-decoration: none;
+}
+
 
 
 
@@ -35,6 +51,9 @@
 @media (max-width:992px){
 	.row .col-lg-4 .card {
 		margin-bottom: 15px;
+	}
+	.container.p-4 .text-light code{
+		font-size: 18px;
 	}
 }
 
@@ -53,5 +72,11 @@
 	}
 	.container-fluid-progress .progress .progress-bar.progress-bar-striped.progress-bar-animated{
 		font-size: 10px;
+	}
+	footer{
+		padding: 0 10px;
+	}
+	.container.p-4 .text-light code{
+		font-size: 18px;
 	}
 }
