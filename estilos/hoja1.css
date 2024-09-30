@@ -3,23 +3,55 @@
 .menucito{
 	background-color: lawngreen;
 }
-.container-fluid-cuerpo{
-	margin: 30px auto;
-	padding: 0 15%;
-}
 .carousel-item.active .carousel-caption.d-none.d-md-block h5 {
 	font-size: 48px;
 	text-shadow: 3px 3px 5px black;
 }
+.container-fluid-cuerpo{
+	margin: 30px auto;
+	padding: 0 15%;
+}
+.container-fluid-accordion{
+	padding: 0 15%;
+	margin: 10px auto;
+}
+.container-fluid-progress .progress .progress-bar.progress-bar-striped.progress-bar-animated {
+	margin: 15 auto;
+}
+.container-fluid-progress{
+	margin: 30px auto;
+	padding: 0 15%;
+}
 
+
+
+
+
+
+
+
+/*MEDIA QUERI TABLETAS*/
 
 @media (max-width:992px){
 	.row .col-lg-4 .card {
 		margin-bottom: 15px;
 	}
 }
+
+/*MEDIA QUERI CELULARES*/
+
 @media (max-width:576px){
 	.container-fluid-cuerpo{
-		padding: 10px;
+		padding: 0 10px;
+		margin: 10px auto;
+	}
+	.container-fluid-accordion{
+		padding: 0 10px;
+	}
+	.container-fluid-progress{
+		padding: 0 10px;
+	}
+	.container-fluid-progress .progress .progress-bar.progress-bar-striped.progress-bar-animated{
+		font-size: 10px;
 	}
 }
